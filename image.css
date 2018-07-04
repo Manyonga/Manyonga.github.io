@@ -2,6 +2,7 @@ img{
 	width:450px;
 	height:300px;
 	margin:10px;
+	transition:all 1s;
 }
 .container{
 	display:flex;
@@ -15,4 +16,8 @@ h1{
 	border-right: 2px solid pink;
 	width:400px;
 	text-align: center;
+}
+
+img:hover{
+	transform: scale(1.1);
 }
