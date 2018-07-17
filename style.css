@@ -1,0 +1,17 @@
+body{
+	background-image:url(mountain.jpg);
+	background-size:cover;
+	font-family: fantasy;
+}
+
+h1{border:solid;
+	text-align: center;
+	font-family: fantasy;
+
+}
+
+footer{
+	clear:both;
+	text-align: center;
+
+}

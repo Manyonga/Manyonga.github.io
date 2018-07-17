@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inscription</title>
+	<link rel="stylesheet" type="text/css" href="inscription.css">
+	<h1>Veuillez entrer vos infos svp:</h1><hr>
+</head>
+<body>
+	<div class="formulaire">
+	<form method="Get">
+		Nom de Famille:
+		<input type="text" name="nom"><br>
+		Pr&eacutenom:
+		<input type="text" name="prenom"><br>
+		Date de naissance:
+		<input type="date" name="birthday"><br>
+		Adresse e-mail:
+		<input type="e-mail" name="email" required><br>
+		Mot de passe:
+		<input type="password" name="password"required min="3"><br>
+		Genre:<br>
+		<input type="radio" name="gender" value="male">Homme<br>
+		<input type="radio" name="gender" value="female">Femme<br>
+		Animal favoris:<br>
+		<input type="checkbox" name="chat">Chat<br>
+		<input type="checkbox" name="chien">Chien<br>
+		Marque de vh&eacuteicule favorite parmi ces 3 mod&egraveles:
+		<select name="voiture">
+			<option value="Audi">Audi</option>
+			<option value="Mercedes">Mercedes</option>
+			<option value="Porsche">Porsche</option>
+		</select><br>
+		<input type="submit" value="Envoyer">
+		<input type="reset" value="Effacer">
+	</form>
+</div>
+<p>Retour page d'<a href="index.html">accueil</a></p>
+</body>
+</html>

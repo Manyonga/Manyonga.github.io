@@ -1,0 +1,13 @@
+h1{
+	font-family: fantasy;
+}
+img{
+	width: 450px;
+	height: 300 px;
+	transition:all 1s;
+}
+img:hover{
+	transform: scale(1.1);
+}
+body{
+	background-color:lightblue;
